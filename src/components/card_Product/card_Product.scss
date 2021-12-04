@@ -1,0 +1,49 @@
+.home-card-product {
+    width: 100%;
+    padding: 5px;
+  
+    .Card-product {
+      width: 53%;
+      margin: auto;
+      text-align: center;
+  
+      span{
+          font-size: 20px;
+      }
+      .packages {
+        padding: 5px;
+        width: 90%;
+        background-color: rgb(255, 248, 248);
+        border-radius: 10px;
+        height: 265px;
+  
+        .images {
+          width: 150px;
+          height: 180px;
+          border: black solid 2px;
+          border-radius: 10px;
+        }
+        .name {
+          text-align: center;
+            padding: 2px;
+          color: black;
+          font-size: 25px;
+        }
+        .price {
+          padding: 2px;
+          text-align: center;
+  
+          color: rgb(8, 71, 63);
+          font-size: 18px;
+        }
+        .icons button{
+          padding: 5px;
+          &:hover {
+              background-color: rgb(243, 0, 0);
+              color: white;
+            }
+        }
+      }
+    }
+  }
+  
